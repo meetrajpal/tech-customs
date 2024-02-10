@@ -2,7 +2,7 @@
 
 This is a website where a user can buy a PC with specifications he/she specifies.
 
-This project is made up of JSP(Java Server Pages) and MySQL database.
+This project is made up of JSP(Java Server Pages), MySQL database, Vanila JS (JavaScript), Bootstrap5.
 
 If you want to see the live demo of project, the static website of this project you can find here https://techcustoms.netlify.app/
 
