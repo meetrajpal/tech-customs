@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Akira";
+    src: url('fonts/Akira.ttf');
+}
+@font-face {
+    font-family: "Knock";
+    src: url('fonts/KnockKnock.ttf');
+}
+@font-face {
+    font-family: "Qualy";
+    src: url('fonts/Qualy Bold.ttf');
+}
+@font-face {
+    font-family: "Stretch";
+    src: url('fonts/StretchPro.otf');
+}
+@font-face {
+    font-family: "BehnSchrift";
+    src: url('fonts/bahnschrift.ttf');
+}
+@font-face {
+    font-family: "poppins";
+    src: url("fonts/Poppins.ttf");
+}
+.text-akira{
+    font-family: "Akira";
+}
+.text-knock{
+    font-family: "Knock";
+}
+.text-qualy{
+    font-family: "Qualy";
+}
+.text-stretch{
+    font-family: "Stretch";
+}
+.text-poppins{
+    font-family: "poppins";
+}
+:-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+.head {
+    margin: 15px;
+    text-align: center;
+}
+
+.sideBtn {
+    margin: 10px;
+    color: white;
+    background-color: #14213d;
+    border: solid #d23bff 2px;
+}
+
+.sideBtn:hover {
+    color: white;
+    background-color: #d23bff;
+    border: solid 2px;
+}
+
+.sideBtn:active {
+    color: white;
+    background-color: #d23bff;
+    border: solid 2px;
+}
+@media(max-width: 990px) {
+    .cmpRow{
+        display: block;
+        padding: 20px;
+    }
+    .col-6, .col2{
+        text-align: center;
+    }
+}

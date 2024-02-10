@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Akira";
+    src: url('fonts/Akira.ttf');
+}
+
+.text-akira {
+    font-family: "Akira";
+}
+
+.send {
+    color: white;
+    border: solid #d23bff 2px;
+}
+
+.send:hover {
+    background-color: #d23bff;
+}
+
+.myRow {
+    margin: 10px;
+}
+
+svg {
+    margin-right: 10px;
+}
+
+.msg,
+.msg:hover,
+.msg:active,
+.msg:visited {
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #14213d;
+}

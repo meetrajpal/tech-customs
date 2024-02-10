@@ -11,3 +11,5 @@ In this website there is a page of Custom Build where a user selects the require
 There is feature page of FORUMS, where users can write their thoughts or can question about any doubts.
 
 Also, there is page for PRODUCTS where user can scroll through number of products and can purchase through the link.
+
+You can import my database from a given file inside res > db_backup > techCustomsDB.sql

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Akira";
+    src: url('fonts/Akira.ttf');
+}
+@font-face {
+    font-family: "Knock";
+    src: url('fonts/KnockKnock.ttf');
+}
+@font-face {
+    font-family: "Qualy";
+    src: url('fonts/Qualy Bold.ttf');
+}
+@font-face {
+    font-family: "Stretch";
+    src: url('fonts/StretchPro.otf');
+}
+@font-face {
+    font-family: "BehnSchrift";
+    src: url('fonts/bahnschrift.ttf');
+}
+@font-face {
+    font-family: "poppins";
+    src: url("fonts/Poppins.ttf");
+}
+.text-akira{
+    font-family: "Akira";
+}
+.text-knock{
+    font-family: "Knock";
+}
+.text-qualy{
+    font-family: "Qualy";
+}
+.text-stretch{
+    font-family: "Stretch";
+}
+.text-poppins{
+    font-family: "poppins";
+}
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(7px);
+}
+
+.myDiv {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 130px;
+    height: 762px;
+    width: 400px;
+    background-color: #11112d;
+    text-align: center;
+    box-shadow: 20px 0px 100px black;
+}
+
+.login {
+    background-color: #11112d;
+    border: solid #d23bff 3px;
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 0px 0px 12px #d23bff;
+}
+
+.right {
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+img {
+    margin-top: 100px;
+}
+
+.form-control {
+    border: solid #d23bff 2px;
+}
+
+@media(min-width: 990px) {
+    main {
+        display: flex;
+    }
+    
+}
+
+@media(max-width: 990px) {
+    .myDiv {
+        height: 1000px;
+        width: 100vw;
+    }
+}
